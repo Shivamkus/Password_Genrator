@@ -52,7 +52,7 @@ const PasswordGenrator = () => {
   },[length, numAllowed, charAllowed, passwordGenrator])
   return (
     <>
-    <div className="w-full max-w-md mx-auto shadow-lg rounded-md px-4 my-8 py-5 text-orange-700 bg-gray-900">
+    <div className="w-full h-full max-w-md mx-auto shadow-lg rounded-md px-4 my-8 py-5 text-orange-700 bg-gray-900">
      <h1 className="text-white text-center mb-2 mt-1 "> Password Genrator</h1>
     <div className="flex shadow rounded-lg overflow-hidden mb-4">
     <input type="text"
